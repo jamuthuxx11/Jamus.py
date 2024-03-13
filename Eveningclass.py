@@ -35,12 +35,17 @@ print(total)
 print(2%5)
 
 #checking if a number is odd or even
-y=20
+#y=20
 #print(y%10)
-if y%2==0:
-    print("even")
-else:
-    print("odd")
+#if y%2==0:
+    #print("even")
+#else:
+    #print("odd")
+
+
+
+
+
 
 #Assignment operators
 z=6
@@ -58,7 +63,55 @@ print(7<9)
 # AND , OR
 age=32
 nationality="Nigerian"
-if nationality=="Nigerian" and age==40
+if nationality=="Nigerian" and age==32:
+
     print("you can be MANAGER")
 else:
     print("you can't be MANAGER")
+
+
+
+
+
+
+#checking if a number is odd or even
+#x=int(input("enter a number:"))
+x=8
+if x%2==0:
+    print("even")
+else:
+    print("odd")
+
+
+#illustration of elif
+z=6
+if z>3:
+    print("the value of z is more than 3")
+elif z==3:
+    print("the value of z is equal to 3")
+else:
+    print("the value of z is less than 3")
+
+#checking city of candidate using elif
+#city=input("enter city name:")
+#if city=="Mombasa":
+    #print("you are ABLE to become president")
+#elif city=="Nairobi":
+    #print("you are ABLE to become president")
+#elif city=="Kisumu":
+   # print("you are ABLE to become president")
+#else:
+#    print("you are NOT ABLE to become president")
+
+x=int(input("enter your first number:"))
+y=int(input("enter your second number:"))
+operation=str( input("enter your operation:"))
+if operation=="add":
+    print(x+y)
+elif operation=="subtract":
+    print(x-y)
+elif operation=="multiplication":
+    print(x*y)
+
+
+
