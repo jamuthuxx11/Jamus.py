@@ -84,13 +84,13 @@ else:
 
 
 #illustration of elif
-z=6
-if z>3:
-    print("the value of z is more than 3")
-elif z==3:
-    print("the value of z is equal to 3")
-else:
-    print("the value of z is less than 3")
+#z=6
+#if z>3:
+ #   print("the value of z is more than 3")
+#elif z==3:
+ #   print("the value of z is equal to 3")
+#else:
+ #   print("the value of z is less than 3")
 
 #checking city of candidate using elif
 #city=input("enter city name:")
@@ -103,15 +103,76 @@ else:
 #else:
 #    print("you are NOT ABLE to become president")
 
-x=int(input("enter your first number:"))
-y=int(input("enter your second number:"))
-operation=str( input("enter your operation:"))
-if operation=="add":
-    print(x+y)
-elif operation=="subtract":
-    print(x-y)
-elif operation=="multiplication":
-    print(x*y)
+#x=int(input("enter your first number:"))
+#y=int(input("enter your second number:"))
+#operation=str( input("enter your operation:"))
+#if operation=="add":
+ #   print(x+y)
+#elif operation=="subtract":
+  #  print(x-y)
+#elif operation=="multiplication":
+   # print(x*y)
 
+#LOOPING
+#x=1
+#while x<=10:
+  #  print("the value of x is:",x)
+ #   x+=1
+#print("success")
 
+#continue and the break statement
+#x=1
+#while x<=10:
+ #   if x==3:
+  #      x+=1
+  #      continue
+   ##x+=1
+#print("end of continue statement")
 
+#Brake Statement
+x=1
+while x<=10:
+    if x==3:
+        x+=1
+        break
+    print(x)
+    x+=1
+print("end of break statement")\
+
+y=2
+while y<=7:
+    print("the value of y is:",y)
+    y+=1
+else:
+    print("loop ended")
+
+x=0
+sum=0
+while x<=10:
+    if x%2==0:
+        x=x+1
+        continue
+    else:sum=sum+x
+    x=x+1
+else:
+    print(sum)
+
+visitors=int(input("enter the number of visitors:"))
+ugandan =0
+kenyan=0
+counter=1
+
+while counter<=visitors:
+    nationality = input("enter the nationality:")
+    if nationality=="kenyan":
+        kenyan+=1
+        print("allowed")
+        counter+=1
+    else:
+        ugandan+=1
+        print("not allowed")
+        counter+=1
+
+print("the number of visitors is: ",visitors)
+print("the number of kenyans is: ",kenyan)
+print("the number of ugandans is:",ugandan )
