@@ -75,13 +75,14 @@ else:
 
 
 #checking if a number is odd or even
-#x=int(input("enter a number:"))
+"""
+x=int(input("enter a number:"))
 x=8
 if x%2==0:
     print("even")
 else:
     print("odd")
-
+"""
 
 #illustration of elif
 #z=6
@@ -145,7 +146,7 @@ while y<=7:
     y+=1
 else:
     print("loop ended")
-
+"""
 x=0
 sum=0
 while x<=10:
@@ -172,7 +173,41 @@ while counter<=visitors:
         ugandan+=1
         print("not allowed")
         counter+=1
-
+"""
+""""
 print("the number of visitors is: ",visitors)
 print("the number of kenyans is: ",kenyan)
 print("the number of ugandans is:",ugandan )
+"""
+#for loop
+names=["ETHAN","JAMU","MWAKIO"]
+for names in names:
+    print(names)
+
+#while loop implimentation
+names=["ETHAN","JAMU","MWAKIO"]
+x=0
+while x<len(names):
+    print(names[x])
+    x+=1
+"""
+for x in range(5):
+    print("franko")
+"""
+"""
+y=0
+while y<4:
+    print("franko")
+    y+=1
+"""
+for x in range(2,4):
+        print("franko")
+
+for x in range(2,4,10):
+          print("jamuh")
+#sum of all even numbers btn 0-10 using while loop
+sum=0
+for x in range(1,11):
+    if x%2==0:
+        sum=sum+x
+print("the sum is ",sum)
