@@ -17,7 +17,7 @@ fruits.append("pineapple")
 print(fruits)
 
 
-#version 1
+#version 1 quiz
 mystudents=list()
 for x in range(3):
     student=input("enter student name:")
